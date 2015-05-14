@@ -1,1 +1,1 @@
-www,asd,.acpm
+example1.com, example2.com

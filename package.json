@@ -4,7 +4,9 @@
   "main": "web/basic-server.js",
   "author": "Hack Reactor",
   "license": "Copyright 2014, Hack Reactor. All rights reserved.",
-  "dependencies": {},
+  "dependencies": {
+    "express": "^4.12.3"
+  },
   "devDependencies": {
     "chai": "^1.9.0",
     "cron": "^1.0.3",
@@ -17,5 +19,16 @@
   "scripts": {
     "test": "mocha test",
     "start": "node ./web/basic-server.js"
-  }
+  },
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sbraunstein/MKS16-web-historian.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sbraunstein/MKS16-web-historian/issues"
+  },
+  "homepage": "https://github.com/sbraunstein/MKS16-web-historian"
 }

@@ -5,6 +5,7 @@ var archive = require("../helpers/archive-helpers");
 var path = require('path');
 var supertest = require('supertest');
 
+
 archive.initialize({
   list: path.join(__dirname, "/testdata/sites.txt")
 });
